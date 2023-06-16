@@ -1,0 +1,68 @@
+{
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "workbench.editorAssociations": {
+    "*.nes": "hexEditor.hexedit"
+  },
+  "workbench.startupEditor": "none",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  "python.defaultInterpreterPath": "python3",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.venvFolders": ["~/.local/share/virtualenvs"],
+  "python.venvPath": "~/.local/share/virtualenvs",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.codeActionsOnSave": {},
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "none",
+  "python.linting.mypyEnabled": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.autoClosingTags": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "haskell.manageHLS": "PATH",
+  "azureResourceManagerTools.parameterFiles": {
+    "/Users/maxpaj/Code/chiptune-stack/remix.init/azure/resource-group-template/template.json": "parameters.json"
+  },
+  "notebook.lineNumbers": "on",
+  "html.autoClosingTags": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "explorer.compactFolders": false,
+  "bicep.enableSurveys": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "relative",
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "workbench.colorTheme": "Abyss",
+  "editor.fontFamily": "DinaRemaster, monospace",
+  "editor.fontSize": 16,
+  "customizeUI.stylesheet": {}
+}
