@@ -1,1 +1,1 @@
-`stow .`
+Just `stow .`
