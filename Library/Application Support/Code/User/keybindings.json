@@ -53,11 +53,20 @@
     "key": "cmd+[Minus]",
     "command": "-workbench.action.zoomIn"
   },
-  { "key": "ctrl+t", "command": "workbench.action.terminal.focus" },
+  { "key": "cmd+j", "command": "workbench.action.terminal.focus" },
   {
-    "key": "ctrl+t",
+    "key": "cmd+k",
+    "comamnd": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+j",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+shift+j",
+    "command": "workbench.action.togglePanel"
   },
   {
     "key": "cmd+down",
