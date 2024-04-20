@@ -1,5 +1,5 @@
 PS1='%n@%m %~ %# '
-ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 export PATH=$PATH:/usr/local/bin/code
 export PATH=$PATH:/usr/local/share/dotnet/x64
