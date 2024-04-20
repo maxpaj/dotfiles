@@ -1,18 +1,15 @@
 {
+  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+    "asvetliakov.vscode-neovim": 1
+  },
   "security.workspace.trust.untrustedFiles": "newWindow",
   "workbench.editorAssociations": {
     "*.nes": "hexEditor.hexedit"
   },
   "workbench.startupEditor": "none",
   "diffEditor.ignoreTrimWhitespace": false,
-  "mssql.connections": [
-    {
-      "server": "{{put-server-name-here}}",
-      "database": "{{put-database-name-here}}",
-      "user": "{{put-username-here}}",
-      "password": ""
-    }
-  ],
   "git.autofetch": true,
   "git.confirmSync": false,
   "python.defaultInterpreterPath": "python3",
@@ -37,21 +34,18 @@
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
-  "haskell.manageHLS": "PATH",
   "notebook.lineNumbers": "on",
   "html.autoClosingTags": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "explorer.compactFolders": false,
-  "bicep.enableSurveys": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "relative",
   "editor.stickyScroll.enabled": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "smooth",
-  "workbench.colorTheme": "Catppuccin Frappé",
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono, serif",
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
@@ -79,5 +73,6 @@
     "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
     "position": "center", // alias to `background-position`, default `center`
     "interval": 0 // seconds of interval for carousel, default `0` to disabled.
-  }
+  },
+  "workbench.colorTheme": "Monokai Pro"
 }
